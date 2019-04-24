@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+.main-header {
+background-image: url('https://www.toyotaoforlando.com/wp-content/themes/DealerInspireDealerTheme/images/about-row-bg.jpg');
+text-align: center;
+height: 500px;
+background-size: cover;
+}
+.main-header h1 {
+  font-size: 72px;
+  margin-top: 0;
+  padding-top: 10%;
+}
+h2 {
+  front-size:41px;
+}
+h1, h2 {
+  text-align: center;
+ text-tranform: uppercase;
+ padding: 40px 8px;
+}
+.car-grid {
+  display: inline-grid;
+  grid-template: 200px / 400px 400px;
+  grid-gap: 10px;
+}
+.car-grid div{
+   background-image: url("https://www.vancouvertoyota.com/assets/shared/CustomHTMLFiles/Responsive/MRP/Toyota/2018/Highlander/images/2018-Toyota-Highlander-02.jpg");
+   background-position: 50% 50%;
+   background-size: cover;
+}
+.grid-container {
+     text-align: center;
+}
+
+.main-button {
+  background: red;
+  padding: 1% 1.8%;
+  text-decoration: none;
+  text-transforn: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+  main-button:hover {
+    background-color: blue;
+  }
+
+  .info-grid {
+    padding-top: 1%;
+    display: inline-grid;
+    grid-template: 500px / 500px 500px;
+
+  }
+    .info-grid div:nth-child(2) {
+      background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBQOTZxCx_bCt1nBOpTgzimdeFBNbcTaDN83E7_uCwOQXxdQdcQ");
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+    #navbar {
+      padding-left: 5%;
+      padding-bottom: 0.6%;
+      background: white;
+
+    }
+    #navbar ul li {
+      display: inline;
+      padding: 0 30px;
+    }
+    #navbar ul li a {
+      text-decoration: none;
+      color: #darkblue;
+    }
